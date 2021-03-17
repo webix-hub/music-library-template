@@ -1,0 +1,49 @@
+.sidebarDark {
+    border-color: #4A4E58;
+    background-color: #4A4E58;
+    color: #DADEE0;
+    .webix_tree_item {
+        border-left: 4px solid transparent;
+    }
+    .webix_tree_leaves {
+        margin-left: 0;
+    }
+    &.webix_tree .webix_scroll_cont > .webix_tree_leaves {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .webix_tree_item.webix_selected,
+    .webix_tree_item.webix_selected:focus {
+        color: #DADEE0;
+        border-color: #1CA1C1;
+        background-color: #313131;
+        .sidebarItem {
+            color: #DADEE0;
+            margin-left: 6px;
+        }
+    }
+    .webix_tree_branch_1 {
+        margin-bottom: 14px;
+        .webix_tree_item {
+            padding-left: 16px;
+        }
+    }
+    .webix_tree_branch_2 {
+        .webix_tree_item {
+            padding-left: 50px;
+        }
+    }
+    .sidebarItem {
+        margin-left: 6px;
+    }
+}
+
+.iconItem {
+    color: #1CA1C1;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    span.mdi {
+        margin-right: 5px;
+    }
+}

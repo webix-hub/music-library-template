@@ -1,0 +1,36 @@
+.cover {
+    display: flex;
+    padding: 18px 10px;
+    align-items: center;
+}
+.coverImg {
+    width: 85px;
+    height: 85px;
+    display: flex;
+    margin-right: 15px;
+    flex-shrink: 0;
+    img {
+        width: 100%;
+    }
+}
+.coverRow {
+    display: flex;
+    align-items: center;
+}
+.coverName {
+    color: #313131;
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-right: 12px;
+}
+.coverText {
+    color: #94A1B3;
+    line-height: 20px;
+    flex-grow: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.coverTrack {
+    white-space: nowrap;
+}

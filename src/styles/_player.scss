@@ -1,0 +1,30 @@
+.player {
+    .webix_icon_button {
+        .webix_icon {
+            color: #475466;
+            width: 24px;
+            height: 24px;
+            line-height: 24px;
+            &.active {
+                color: #1ca1c1;
+            } 
+        }
+        &:hover {
+            &:before {
+                display: none;
+            }
+        }
+    }
+}
+.trackTime {
+    color: #94A1B3;
+    line-height: 20px;
+    .webix_template {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        span {
+            padding-top: 6px;
+        }
+    }
+}

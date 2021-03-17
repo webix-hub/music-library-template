@@ -1,0 +1,12 @@
+.checked {
+    color: #1ca1c1;
+}
+
+.unchecked {
+    color: #dadee0;
+}
+
+.webix_column > div.webix_row_select,
+.webix_column > div.webix_row_select .playControl.unchecked {
+    color: #1ca1c1;
+}

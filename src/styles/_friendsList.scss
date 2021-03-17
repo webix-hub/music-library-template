@@ -1,0 +1,44 @@
+.webix_list {
+    .webix_list_item{
+        &.userItem {
+            display: flex;
+            padding: 6px 20px;
+        
+            &.webix_selected {
+                box-shadow: none;
+                padding: 6px 20px;
+            }
+        }
+    }
+    
+    .userInner {
+        display: flex; 
+        align-items: center;
+        width: 100%;
+    }
+
+    .userAvatar {
+        width: 48px;
+        height: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        border-radius: 50%;
+    };
+    .userImage {
+        height: 100%;
+    }
+    .userContent {
+        margin-left: 16px;
+        line-height: 20px;
+        overflow: hidden;
+        flex-grow: 1;
+    }
+    .userName {
+        font-weight: 500;
+    }
+}
+
+
+

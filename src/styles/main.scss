@@ -1,0 +1,34 @@
+@import "header";
+@import "playlist";
+@import "cover";
+@import "sidebar";
+@import "userTemplate";
+@import "player";
+@import "trackDetails";
+@import "friendsList";
+
+.pointer {
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+}
+
+.playerSlider {
+    .webix_slider_box {
+        margin-top: -17px;
+        .webix_slider_left,
+        .webix_slider_right {
+            border: none;
+            height: 8px;
+        }
+        .webix_slider_right {
+            background: #dadee0;
+            height: 8px;
+        }
+    }
+    .webix_slider_handle {
+        display: none;
+    }
+}

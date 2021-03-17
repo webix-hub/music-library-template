@@ -1,0 +1,15 @@
+.trackDetailsWrapp {
+    .webix_template {
+        padding: 4px 20px;
+    }
+}
+.trackDetails {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    &>span {
+        color: #94A1B3;
+        line-height: 20px;
+        font-size: 12px;
+    }
+}

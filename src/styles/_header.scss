@@ -1,0 +1,22 @@
+.webix_toolbar {
+    .webix_badge {
+        border: 2px solid #FFFFFF;
+        box-sizing: content-box;
+        background-color: #FF8C4C;
+        line-height: 16px;
+        min-width: auto;
+        padding: 0;
+        height: 16px;
+        width: 16px;
+    }
+    .webix_icon_button {
+        .webix_icon {
+            color: #475466;
+        }
+        &:hover {
+            &:before {
+                display: none;
+            }
+        }
+    }
+}
