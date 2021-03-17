@@ -3,7 +3,7 @@ Webix Music Library/Player Template
 
 Check the Music library/player web template for the Webix UI library.
 
-Music library/player live demo.
+[Music library/player live demo](https://webix-hub.github.io/music-library-template/dist/es5/index.html).
 
 Use this template as part of your web solution with the following features:
 - listening to your favorite music;
